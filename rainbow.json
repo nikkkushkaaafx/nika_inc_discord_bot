@@ -1,0 +1,9 @@
+	"token": "YOUR LOGIN TOKEN HERE",
+	"servers": [
+		"374663104489062400"
+	],
+	"roleName": "rainbow",
+	"colors": 12,
+	"speed": 60000,
+	"logging": true
+}
