@@ -22,3 +22,14 @@ bot.on("message", async message => {
 });
 
 bot.login(process.env.token);
+
+    static void UpdatePresence()
+    {
+        DiscordRichPresence discordPresence;
+        memset(&discordPresence, 0, sizeof(discordPresence));
+        discordPresence.state = "by nikkkushkaaafx";
+        discordPresence.details = "Special for Nika Inc";
+        discordPresence.startTimestamp = 0;
+        discordPresence.endTimestamp = 0;
+        Discord_UpdatePresence(&discordPresence);
+    }
