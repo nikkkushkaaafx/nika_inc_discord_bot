@@ -48,7 +48,7 @@ const servers = config.servers;
 
 function changeColor() {
   for (let index = 0; index < servers.length; ++index) {		
-    bot.guilds.get(servers[index]).roles.find('name', config.roleName).setColor(rainbow[place])
+    client.guilds.get(servers[index]).roles.find('name', config.roleName).setColor(rainbow[place])
 		.catch(console.error);
 		
     if(config.logging){
@@ -63,7 +63,7 @@ function changeColor() {
 }
 
 bot.on('ready', () => {
-  console.log(`Logged in as ${bot.user.username}!`);
+  console.log(`Logged in as ${client.user.username}!`);
   if(config.speed < 60000){console.log("The minimum speed is 60.000, if this gets abused your bot might get IP-banned"); process.exit(1);}
   setInterval(changeColor, config.speed);
 });
