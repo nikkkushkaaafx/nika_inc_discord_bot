@@ -9,15 +9,5 @@
   "dependencies": {
     "discord.js": "11.1.0",
     "request": "2.81.0"
-  },
-      static void UpdatePresence()
-    {
-        DiscordRichPresence discordPresence;
-        memset(&discordPresence, 0, sizeof(discordPresence));
-        discordPresence.state = "by nikkkushkaaafx";
-        discordPresence.details = "Special for Nika Inc";
-        discordPresence.startTimestamp = 0;
-        discordPresence.endTimestamp = 0;
-        Discord_UpdatePresence(&discordPresence);
-    }
+  }
 }
