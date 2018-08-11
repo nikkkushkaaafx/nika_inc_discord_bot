@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client({disableEveryone: true});
-const config = require('./rainbow.json');
+const config = require('/rainbow.json');
 
 const size    = config.colors;
 const rainbow = new Array(size);
