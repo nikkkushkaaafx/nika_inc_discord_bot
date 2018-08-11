@@ -23,7 +23,7 @@ bot.on("message", async message => {
 
 bot.login(process.env.token);
 
-robot.on('message',(message)=>{
+bot.on('message',(message)=>{
   if(message.content == "хуй"){
     message.reply("аккуратнее молодой человек!");
   }
