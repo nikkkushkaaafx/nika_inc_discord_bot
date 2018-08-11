@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client({disableEveryone: true});
-const config = require('./config.json');
+const config = require('./rainbow.json');
 
 bot.on("ready", async () => {
   console.log(`${bot.user.username} is online!`);
