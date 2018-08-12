@@ -33,6 +33,4 @@ bot.on("message",(message) => {
 	}
 });
 
-bot.on("ready", () => {
-    client.user.setGame("coding by nikkkushkaaafx");
-});
+
