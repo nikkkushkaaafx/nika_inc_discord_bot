@@ -33,4 +33,6 @@ bot.on("message",(message) => {
 	}
 });
 
-
+bot.on("ready", () => {
+    bot.user.setGame("with my code");
+});
