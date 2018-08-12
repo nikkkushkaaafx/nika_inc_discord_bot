@@ -33,6 +33,3 @@ bot.on("message",(message) => {
 	}
 });
 
-client.on("ready", () => {
-    client.user.setActivity({game: {name: "with my code", type: 0}});
-});
