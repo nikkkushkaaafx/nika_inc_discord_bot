@@ -32,3 +32,14 @@ bot.on("message",(message) => {
 	}
 });
 
+bot.on("message",(message) => {
+	if (message.content == "卐УЙ"){
+		message.reply("аккуратнее молодой человек!");
+	}
+});
+
+bot.on("message",(message) => {
+	if (message.content == "Хуй."){
+		message.reply("аккуратнее молодой человек!");
+	}
+});
