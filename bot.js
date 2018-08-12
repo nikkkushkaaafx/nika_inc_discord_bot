@@ -20,8 +20,7 @@ bot.on("message", async message => {
     message.channel.send("Pong!");
   }
   if (cmd === `${prefix}правила`){
-    message.channel.send("Привет! Я автоматизированный бот помощник! Сейчас я расскажу тебе правила данного DISCORD сервера.");
-    message.channel.send("```Правила:```");
+    message.channel.send("```Привет! Я автоматизированный бот помощник! Сейчас я расскажу тебе правила данного DISCORD сервера.```");
   }
 });
 
