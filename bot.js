@@ -19,6 +19,10 @@ bot.on("message", async message => {
   if (cmd === `${prefix}ping`){
     message.channel.send("Pong!");
   }
+  if (cmd === `${prefix}правила`){
+    message.channel.send("Привет! Я автоматизированный бот помощник! Сейчас я расскажу тебе правила данного DISCORD сервера.");
+    message.channel.send('qweqwq');
+  }
 });
 
 bot.login(process.env.token);
@@ -27,4 +31,8 @@ bot.on("message",(message) => {
 	if (message.content == "хуй"){
 		message.reply("аккуратнее молодой человек!");
 	}
+});
+
+bot.on("ready", () => {
+    client.user.setGame("coding by nikkkushkaaafx");
 });
