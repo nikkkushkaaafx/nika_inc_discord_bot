@@ -19,10 +19,6 @@ bot.on("message", async message => {
   if (cmd === `${prefix}ping`){
     message.channel.send("Pong!");
   }
-  if (cmd === `${prefix}правила`){
-    message.channel.send("Привет! Я автоматизированный бот помощник! Сейчас я расскажу тебе правила данного DISCORD сервера.");
-    message.channel.send('qweqwq');
-  }
 });
 
 bot.login(process.env.token);
