@@ -21,7 +21,7 @@ bot.on("message", async message => {
   }
   if (cmd === `${prefix}правила`){
     message.channel.send("Привет! Я автоматизированный бот помощник! Сейчас я расскажу тебе правила данного DISCORD сервера.");
-    message.channel.send('qweqwq');
+    message.channel.send(```qweqwq```);
   }
 });
 
