@@ -17,7 +17,7 @@ bot.on("message", async message => {
   let args = messageArray.slice(1);
 
   if (cmd === `${prefix}ping`){
-    message.channel.send("Pong!");
+    message.channel.send("r!rainbow Перекраска админов");
   }
   if (cmd === `${prefix}правила`){
     message.channel.send("```Привет! Я автоматизированный бот помощник! Сейчас я расскажу тебе правила данного DISCORD сервера.```");
